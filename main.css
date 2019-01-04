@@ -1,0 +1,122 @@
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+	font-weight: bold;  
+}
+
+#loading {
+	display: none;
+}
+/* banner pic 520*200 */
+#heading {
+	background:url("banner.png") no-repeat scroll 0 0 transparent;
+	width:425;
+	height:170;
+}
+.title{
+  cursor: pointer;
+}
+#main_domain {
+  padding:5px;
+  border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	-moz-border-radius:15px 15px 15px 15px;
+}
+#other_domain {
+  padding:5px;
+  border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	-moz-border-radius:15px 15px 15px 15px;
+}
+#Search {
+	background:url("textarea.png") no-repeat scroll 0 0 transparent;
+	border: 1px #d9d9d9 solid;
+	border-top-color: #c0c0c0;
+	color:#5e5e5e;
+	font-family:Arial,Helvetica,Sans-serif;
+	font-size:15px;
+	height:30px;
+	margin-right:12px;
+	outline:medium none;
+	padding:0 0 0 35px;
+	width:500px;
+	float: left;
+}
+#Search:hover{
+  -moz-box-shadow:    inset 0 0 8px #d0d0d0;
+  -webkit-box-shadow: inset 0 0 8px #d0d0d0;
+  box-shadow:         inset 0 0 8px #d0d0d0;
+}
+#Search:focus{
+  border-color: rgb(51,102,255);
+  -moz-box-shadow:    inset 0 0 8px #d0d0d0;
+  -webkit-box-shadow: inset 0 0 8px #d0d0d0;
+  box-shadow:         inset 0 0 8px #d0d0d0;
+}
+#submit{
+float: left;
+  cursor: pointer;
+  margin-top:15xp;
+  height:30px;
+  width:80px;
+  border: 1px rgb(205,205,205) solid;
+  background-color: #f4f4f4;
+  font-size:11px;
+  font-weight: bold;
+  color: #444444;
+}
+#submit:hover{
+  border: 1px #c6c6c6 solid;
+  background-color: #f7f7f7;
+  color: #222222;
+  -moz-box-shadow:    inset 0 0 8px #d0d0d0;
+  -webkit-box-shadow: inset 0 0 8px #d0d0d0;
+  box-shadow:         inset 0 0 8px #d0d0d0;
+}
+#submit:focus{
+  border-color: rgb(51,102,255);
+}
+.title {
+	font:16px/1.3 Verdana,"Lucida Grande",Arial,Helvetica,Sans-Serif;
+	color: #6083c2;
+}
+/* results p */
+h4 {
+	border-bottom:1px solid #EEEEEE;
+	font:14px/1.3 Verdana,"Lucida Grande",Arial,Helvetica,Sans-Serif;
+	margin:0px;
+	padding:1px;
+	min-width:200px;
+	text-align:left
+}
+h4 a{font-family:"crete-rounded-web-1","crete-rounded-web-2",sans-serif; color:#333333}
+h4 .icon {
+	margin-right:4px;
+	margin-top:1px;
+}
+.domain_name {
+  margin-bottom:1px;  
+}
+#main_ac {
+  display: none;
+}
+#other_ac {
+  display: none;
+}
+/* result of available domains */
+.available{
+  color:#39842d;
+}
+/* result of not-available domains */
+.taken {
+  color:#ff4242;
+}
+/* result of limited domains */
+.limit{
+  color:#222;
+}
+.hidden{
+  display:none;
+}
